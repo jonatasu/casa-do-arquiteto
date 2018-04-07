@@ -1,0 +1,151 @@
+$font-stack: 'Raleway',
+sans-serif;
+$font-sec: 'Maven Pro',
+sans-serif;
+$main-color: #F0542D;
+$second-color: #4D5258;
+$complementary-color: #7c8a8d;
+;
+//$text-color: #7d7a7a;
+@mixin box-shadow($top, $left, $blur, $color) {
+    -webkit-box-shadow: $top $left $blur $color;
+    -moz-box-shadow: $top $left $blur $color;
+    box-shadow: $top $left $blur $color;
+}
+
+@mixin text-shadow($top, $left, $blur, $color) {
+    -webkit-text-shadow: $top $left $blur $color;
+    -moz-text-shadow: $top $left $blur $color;
+    text-shadow: $top $left $blur $color;
+}
+
+@mixin anima {
+    -webkit-transition: all 250ms ease-out;
+    -moz-transition: all 250ms ease-out;
+    transition: all 250ms ease-out;
+}
+
+
+
+
+//--------------------------------------------------------------------------------------------------------------------------------
+/**LAYER ABSOLUTE**/
+
+@mixin layer($color) {
+    background: $color;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    display: block;
+    top: 0;
+    left: 0
+}
+
+//--------------------------------------------------------------------------------------------------------------------------------
+/**CENTRALIZAR VERTICAL**/
+
+@mixin middle {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+//--------------------------------------------------------------------------------------------------------------------------------
+//CENTRALIZAR
+@mixin center-both() {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    @include prefix(transform, translate(-50%, -50%), 'webkit' 'ms');
+}
+
+//@include center-both;
+//--------------------------------------------------------------------------------------------------------------------------------
+/**PLACEHOLDER**/
+
+@mixin input-placeholder {
+    &.placeholder {
+        @content;
+    }
+    &:-moz-placeholder {
+        @content;
+    }
+    &::-moz-placeholder {
+        @content;
+    }
+    &:-ms-input-placeholder {
+        @content;
+    }
+    &::-webkit-input-placeholder {
+        @content;
+    }
+}
+
+//USO DO PLACEHOLDER
+//input,  
+//textarea {  
+//    @include input-placeholder {
+//        color: $grey;
+//    }
+//}
+//--------------------------------------------------------------------------------------------------------------------------------
+/**TRUNCAR**/
+
+@mixin truncate($truncation-boundary) {
+    max-width: $truncation-boundary;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+//--------------------------------------------------------------------------------------------------------------------------------
+/**background-gradient**/
+
+@mixin background-gradient($start-color, $end-color, $orientation) {
+    background: $start-color;
+
+    @if $orientation=='vertical' {
+        background: -webkit-linear-gradient(top, $start-color, $end-color);
+        background: linear-gradient(to bottom, $start-color, $end-color);
+    }
+    @else if $orientation=='horizontal' {
+        background: -webkit-linear-gradient(left, $start-color, $end-color);
+        background: linear-gradient(to right, $start-color, $end-color);
+    }
+    @else {
+        background: -webkit-radial-gradient(center, ellipse cover, $start-color, $end-color);
+        background: radial-gradient(ellipse at center, $start-color, $end-color);
+    }
+}
+
+//orientation: vertical, horizontal OU radial;
+//ex: @include background-gradient(red, black, 'vertical');
+//--------------------------------------------------------------------------------------------------------------------------------
+//BORDER RADIUS
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+
+//@include border-radius(10px)
+@mixin border-radius-separate($top-left-radius, $top-right-radius, $bottom-left-radius, $bottom-right-radius) {
+    @include prefix(border-top-left-radius, $top-left-radius, 'webkit' 'moz');
+    @include prefix(border-top-right-radius, $top-right-radius, 'webkit' 'moz');
+    @include prefix(border-bottom-right-radius, $bottom-right-radius, 'webkit' 'moz');
+    @include prefix(border-bottom-left-radius, $bottom-left-radius, 'webkit' 'moz');
+}
+
+//@include border-radius-separate(1px, 2px, 3px, 4px);
+//--------------------------------------------------------------------------------------------------------------------------------
+//SCALE
+@mixin scale($value) {
+    @include prefix(transform, scale($value), 'webkit' 'ms');
+}
+
+//@include scale(2);

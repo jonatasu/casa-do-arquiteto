@@ -1,0 +1,662 @@
+//@extend-elements
+//original selectors
+//.progress >li a:hover, .progress >li.active a, .progress >li.active
+%extend_1 {
+    color: #1d1c1c;
+    text-decoration: none;
+}
+
+//original selectors
+//#carrinho .table, #carrinho .table th, #carrinho .table td
+%extend_2 {
+    border: 1px solid #eee;
+    border-collapse: collapse;
+}
+
+
+.progress {
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    color: #849397;
+    background: none; //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+    box-shadow: none;
+    > li {
+        position: relative;
+        display: table-cell;
+        text-align: center;
+        font-size: 0.8em;
+        a {
+            font-size: 12px;
+            text-transform: uppercase;
+            display: block;
+            color: #dddddd;
+            &:hover {
+                @extend %extend_1;
+            }
+        }
+        &:before {
+            background: #fff;
+            border: 2px solid #f5f5f5; //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+            border-radius: 100%;
+            content: attr(data-step);
+            display: block;
+            font-size: 1.5em;
+            height: 3em;
+            line-height: 2.9em;
+            margin: 0 auto 0.25em;
+            position: relative;
+            text-align: center;
+            width: 3em;
+            z-index: 2;
+            color: #dddddd;
+        }
+        &:after {
+            background: #dddddd none repeat scroll 0 0;
+            content: "";
+            display: block;
+            height: 0.2em;
+            left: 50%;
+            position: absolute;
+            top: 2.1em;
+            width: 100%;
+            z-index: -1;
+        }
+        &.active {
+            @extend %extend_1;
+            a {
+                @extend %extend_1;
+            }
+            &:before {
+                border-color: #1d1c1c;
+                color: #1d1c1c;
+            }
+        }
+        &:last-child:after {
+            display: none;
+        }
+    }
+}
+
+#carrinho {
+    .table {
+        @extend %extend_2;
+        margin: 30px 0 50px;
+        th {
+            @extend %extend_2;
+            color: #666666;
+            font-size: 13px;
+            font-weight: 500;
+            line-height: 1;
+            padding: 18px 0;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        td {
+            @extend %extend_2;
+            color: #999;
+            padding: 15px;
+            vertical-align: middle;
+        }
+        .img-prod {
+            float: left;
+            height: 100px;
+            margin-right: 10px;
+            overflow: hidden;
+            width: 100px;
+        }
+        .desc-item {
+            margin-top: 15px;
+        }
+        p {
+            color: #999999;
+            font-size: 13px;
+            font-weight: normal;
+            line-height: 20px;
+            margin: 0;
+        }
+        .total-row {
+            td {
+                background: #1d1c1c;
+                color: #fff;
+            }
+            span.total-item {
+                font-weight: 700;
+            }
+        }
+        a.remove {
+            color: #a51c1c;
+            display: block;
+            font-size: 11px;
+            font-weight: normal;
+            margin-top: 5px;
+        }
+        h6.product-title a {
+            color: #666666;
+            font-weight: 500;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            text-transform: uppercase;
+            white-space: nowrap;
+            font-size: 14px;
+            &:hover {}
+        }
+    }
+    .input-counter {
+        width: 100px;
+        display: inline-block;
+        input {
+            height: 42px;
+            width: 100px; //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+            border-radius: 0;
+            font-size: 16px;
+        }
+        span {
+            margin-top: -22px;
+        }
+        .minus-btn {
+            left: 3px;
+            &:before {
+                display: block;
+                font-family: FontAwesome;
+                font-size: 25px;
+                line-height: 45px;
+                opacity: 1;
+                content: "\f107";
+            }
+        }
+        .plus-btn {
+            right: 3px;
+            &:before {
+                display: block;
+                font-family: FontAwesome;
+                font-size: 25px;
+                line-height: 45px;
+                opacity: 1;
+                content: "\f106";
+            }
+        }
+    }
+    .culculate-shipping {
+        border: 1px solid #ddd;
+        padding: 5px 20px;
+        margin-bottom: 15px;
+        input {
+            background: #fff none repeat scroll 0 0;
+            border: 1px solid #ddd;
+            color: #999999;
+            font-size: 13px;
+            height: 40px;
+            margin-bottom: 20px;
+            padding-left: 20px;
+            width: 100%;
+        }
+    }
+    .payment-details {
+        border: 1px solid #ddd;
+        padding: 10px 20px 20px;
+    }
+    .coupon-discount {
+        border: 1px solid #ddd;
+        padding: 10px 20px;
+        margin-bottom: 15px;
+        p {
+            color: #999999;
+            font-size: 13px;
+            font-weight: normal;
+            line-height: 20px;
+            margin-bottom: 15px;
+        }
+        .input-wrap {
+            background: #fff none repeat scroll 0 0;
+            border: 1px solid #ddd;
+            color: #999999;
+            font-size: 13px;
+            height: 40px;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+        input {
+            padding-left: 20px;
+            width: calc(100% - 156px);
+            height: 35px;
+            margin: 0;
+            border: none;
+        }
+        button.submit-btn {
+            margin: 0;
+        }
+    }
+    &.carrinho .observacao-pedido.clearfix {
+        margin-bottom: 15px;
+        padding: 5px 20px;
+        border: 1px solid #ddd;
+        textarea {
+            background: #fff none repeat scroll 0 0;
+            border: 1px solid #ddd;
+            color: #999999;
+            font-size: 13px;
+            height: 75px;
+            margin-bottom: 20px;
+            padding: 10px 20px;
+            width: 100%;
+            margin-top: 5px;
+            resize: none;
+        }
+    }
+}
+
+@media(max-width:650px) {
+    #carrinho .table-xs tr.item-row {
+        background: #f5f5f5;
+        margin-bottom: 40px;
+    }
+}
+
+.carrinho {
+    .submit-btn {
+        background: #222 none repeat scroll 0 0;
+        border: medium none;
+        color: rgb(255, 255, 255);
+        float: right;
+        font-size: 13px;
+        font-weight: 700;
+        height: 38px;
+        padding: 0 20px;
+        text-transform: uppercase;
+        margin: 10px 0 0 10px;
+        &:hover {
+            background: #1d1c1c;
+        }
+    }
+    .payment-details {
+        border: 1px solid #ddd;
+        padding: 10px 20px 20px;
+        margin-bottom: 15px;
+        table {
+            width: 100%;
+            margin-top: 16px;
+            tbody tr {
+                border-bottom: 1px solid #eee;
+            }
+        }
+        .td-title-1 {
+            color: #999;
+            font-size: 13px;
+            text-align: left;
+            padding: 5px 0;
+        }
+        .td-title-2 {
+            color: #999;
+            font-weight: 500;
+            text-align: right;
+            padding: 5px 0;
+        }
+        .order-total {
+            color: #1d1c1c;
+            font-weight: 500;
+            text-align: left;
+            padding: 5px 0;
+        }
+        .order-total-price {
+            color: #1d1c1c;
+            font-weight: 700;
+            text-align: right;
+            padding: 5px 0;
+        }
+        button.submit-btn.continuar {
+            background: #999999;
+            &:hover {
+                opacity: 0.7;
+            }
+        }
+    }
+    .adress-details {
+        border: 1px solid #ddd;
+        padding: 10px 20px 20px;
+        margin-bottom: 15px;
+        .endereco {
+            margin-bottom: 10px;
+            h5 {
+                color: #777;
+                font-size: 18px;
+                font-weight: 700;
+                padding: 10px 0 0;
+                text-align: left;
+                text-transform: uppercase;
+            }
+            span {
+                color: #777;
+                display: block;
+                font-size: 14px;
+                text-align: left;
+            }
+        }
+    }
+    h6.titulo {
+        border-left: 3px solid #1d1c1c;
+        color: #666666;
+        font-weight: 700;
+        padding: 2px 0 2px 5px;
+        text-transform: uppercase;
+    }
+}
+
+@media(max-width: 650px) {
+    #carrinho {
+        .coupon-discount {
+            input {
+                width: 100%;
+            }
+            button.submit-btn {
+                display: block;
+                margin-top: 15px;
+                margin-bottom: 10px;
+            }
+        }
+        .table .item-row {
+            margin-bottom: 50px;
+            background: #f8f8f8;
+        }
+    }
+}
+
+#pagamento {
+    .payment-details {
+        .endereco-block {
+            padding: 5px 0;
+            h5 {
+                color: #666666;
+                font-size: 16px;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+            span {
+                color: #999;
+                font-size: 13px;
+                display: block;
+            }
+        }
+        .control-group {
+            margin: 5px 0;
+            .controls {
+                input {
+                    background: #fff none repeat scroll 0 0;
+                    border: 1px solid transparent; //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+                    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+                    color: #999999;
+                    font-size: 13px;
+                    height: 40px;
+                    padding-left: 20px;
+                    width: 100%;
+                }
+                .half {
+                    float: left;
+                    margin: 0 1%;
+                    width: 45%;
+                }
+                .half-1 {
+                    float: left;
+                    margin-right: 8px;
+                    width: 20%;
+                }
+                .half-2 {
+                    float: left;
+                    width: 77%;
+                }
+            }
+            label.control-label {
+                font-weight: 400;
+                font-size: 13px;
+                color: #777;
+                margin-top: 5px;
+            }
+        }
+        #boleto {
+            border-bottom: 1px solid #eee;
+            border-top: 1px solid #eee;
+            margin: 30px 0;
+            padding: 30px;
+        }
+    }
+    .bank-flag {
+        border: 1px solid #aaa; //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+        border-radius: 0.5em;
+        cursor: pointer;
+        display: inline-block;
+        height: 50px;
+        margin: 0 0.8em;
+        overflow: hidden;
+        text-indent: -999px;
+        width: 50px;
+        &.bancodobrasil {
+            background: url(../img/bandeiras/bancodobrasil.png) no-repeat center;
+        }
+        &.bradesco {
+            background: url(../img/bandeiras/bradesco.png) no-repeat center;
+        }
+        &.itau {
+            background: url(../img/bandeiras/itau.png) no-repeat center;
+        }
+    }
+    #paymentMethodsOptions .radio-inline {
+        margin: 0 25px;
+        padding: 0;
+        position: relative;
+        &.active {
+            opacity: 0.8;
+            label span.btn-select {
+                background: #ddd;
+            }
+        }
+        &:hover {
+            opacity: 0.8;
+        }
+        input {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            cursor: pointer;
+        }
+        label {
+            padding: 0;
+            img {
+                display: block;
+                margin: 0 auto;
+                width: 50px;
+            }
+            p {
+                color: #666;
+                display: block;
+                font-size: 13px;
+                margin: 0 0 5px;
+                text-align: center;
+            }
+            span.btn-select {
+                background-color: #40cd28;
+                border-color: #40cd28;
+                color: #fff;
+                display: block;
+                margin: 0 auto;
+                padding: 3px 5px;
+                text-align: center;
+                width: 85px;
+            }
+        }
+    }
+    #boleto button#boletoButton {
+        background: #777;
+        border: medium none;
+        color: rgb(255, 255, 255);
+        display: block;
+        font-size: 13px;
+        font-weight: 700;
+        height: 38px;
+        margin: 0 0 0 10px;
+        padding: 0 20px;
+        text-transform: uppercase;
+        margin: 0 auto; //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+        border-radius: 0;
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+}
+
+.bank-flag {
+    &.banrisul {
+        background: url(../img/bandeiras/banrisul.png) no-repeat center;
+    }
+    &.hsbc {
+        background: url(../img/bandeiras/hsbc.png) no-repeat center;
+    }
+}
+
+@media(max-width:767px) {
+    #pagamento {
+        .payment-details .control-group .controls {
+            .half {
+                margin: 0 2%;
+                width: 42%;
+            }
+            .half-1 {
+                width: 30%;
+            }
+            .half-2 {
+                width: 66%;
+            }
+        }
+        #paymentMethodsOptions .radio-inline {
+            margin: 0 12px;
+            float: left;
+            margin: 0 5px;
+            label {
+                img {
+                    width: 30px;
+                }
+                p {
+                    font-size: 10px;
+                }
+                span.btn-select {
+                    width: 70px;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+#final {
+    .box-shadow {
+        h4 {
+            color: #666666;
+            display: block;
+            font-size: 16px;
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+        h5 {
+            color: #999;
+            display: block;
+            font-size: 16px;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+    }
+    .payment-details {
+        margin-bottom: 10px;
+        .endereco-block {
+            h5 {
+                color: #666666;
+                font-size: 18px;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+            span {
+                color: #999;
+                display: block;
+                font-size: 13px;
+            }
+        }
+        table tr {
+            td {
+                padding: 5px;
+            }
+            &.total td {
+                background: #f5f5f5;
+            }
+        }
+    }
+}
+
+#endereco #boxnovoendereco {
+    .radio {
+        border: 1px solid #ddd;
+        padding: 10px 20px 20px;
+        &:hover {
+            opacity: 0.7;
+        }
+        label {
+            cursor: pointer;
+            input {
+                background: transparent none repeat scroll 0 0;
+                height: 100%;
+                left: 0;
+                margin: 0;
+                padding: 0;
+                position: absolute;
+                top: 0;
+                width: 100%;
+                opacity: 0;
+                cursor: pointer;
+            }
+            h5 {
+                color: #777;
+                font-size: 18px;
+                font-weight: 700;
+                padding: 10px 0 0;
+                text-align: left;
+                text-transform: uppercase;
+                small {
+                    display: block;
+                    text-transform: lowercase;
+                }
+            }
+            span {
+                color: #777;
+                display: block;
+                font-size: 14px;
+                text-align: left;
+            }
+        }
+        &.selected {
+            border-color: #1d1c1c;
+        }
+        &.selected::before {
+            color: #1d1c1c;
+            content: "\f058";
+            display: inline-block;
+            font: 28px/1 FontAwesome;
+            position: absolute;
+            right: 5px;
+            text-rendering: auto;
+            top: 2px;
+            z-index: 2;
+        }
+    }
+    h6.titulo {
+        font-size: 22px;
+        margin: 40px 0 10px;
+    }
+    .formEndereco input {
+        border: 1px solid #ddd; //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+        border-radius: 0;
+        padding: 10px 12px;
+        height: 40px;
+    }
+}
