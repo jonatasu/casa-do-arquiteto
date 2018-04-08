@@ -1,0 +1,27 @@
+{
+  "name": "casadoarquiteto",
+  "version": "1.0.0",
+  "description": "Casa do Arquiteto - LTXXDESIGN",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonatasu/casa-do-arquiteto.git"
+  },
+  "author": "Jônatas Filipe Vieira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonatasu/casa-do-arquiteto/issues"
+  },
+  "homepage": "https://github.com/jonatasu/casa-do-arquiteto#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-plumber": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^4.0.0",
+    "gulp-sourcemaps": "^2.6.4"
+  }
+}
