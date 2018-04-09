@@ -226,6 +226,17 @@ PRELOADER
 }
 
 /* ====================================================================================================
+BREADCRUMB
+==================================================================================================== */
+.breadcrumb .home-link a.fa-home{
+  color: $main-color;
+}
+.breadcrumb .home-link a.fa-home:hover,
+.breadcrumb .home-link a.fa-home:focus{
+  text-decoration: none;
+}
+
+/* ====================================================================================================
 RODAPÉ
 ==================================================================================================== */
 
@@ -356,6 +367,20 @@ Footer
   font-size: 13px;
   line-height: 40px;
   overflow: hidden;
+  position: relative;
+}
+.footer_widget>ul>li::after{
+  content: " ";
+  width: 0;
+  height: 1px;
+  background-color: $main-color;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  @include transition(width .2s ease-out)
+}
+.footer_widget>ul>li:hover::after{
+  width: 100%;
 }
 
 .footer_widget>ul>li:last-child {
@@ -384,11 +409,13 @@ Footer
 .footer_widget>ul>li>a {
   color: #666666;
   font-size: 13px;
-  display: block
+  display: block;
+  @include transition(color .25s linear)
 }
 
 .footer_widget>ul>li>a:hover {
-  color: #000;
+  color: $main-color;
+  text-decoration: none
 }
 
 .footer_widget>ul>li>a>i, .footer_widget>ul>li>span>i {
@@ -553,7 +580,7 @@ HEADER MENU
         color: #666;
         font-size: 16px;
         border: none;
-        width: calc(100% - 50px)
+        width: calc(100% - 60px)
       }
       #nm-form_button {
         color: $main-color;

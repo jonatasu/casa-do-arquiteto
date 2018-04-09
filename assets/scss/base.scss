@@ -7,17 +7,20 @@ $second-color: #4D5258;
 $complementary-color: #7c8a8d;
 ;
 //$text-color: #7d7a7a;
-@mixin box-shadow($top, $left, $blur, $color) {
-    -webkit-box-shadow: $top $left $blur $color;
-    -moz-box-shadow: $top $left $blur $color;
-    box-shadow: $top $left $blur $color;
-}
 
-@mixin text-shadow($top, $left, $blur, $color) {
-    -webkit-text-shadow: $top $left $blur $color;
-    -moz-text-shadow: $top $left $blur $color;
-    text-shadow: $top $left $blur $color;
-}
+@import "css3-mixins";
+//
+// @mixin box-shadow($top, $left, $blur, $color) {
+//     -webkit-box-shadow: $top $left $blur $color;
+//     -moz-box-shadow: $top $left $blur $color;
+//     box-shadow: $top $left $blur $color;
+// }
+//
+// @mixin text-shadow($top, $left, $blur, $color) {
+//     -webkit-text-shadow: $top $left $blur $color;
+//     -moz-text-shadow: $top $left $blur $color;
+//     text-shadow: $top $left $blur $color;
+// }
 
 @mixin anima {
     -webkit-transition: all 250ms ease-out;
@@ -86,8 +89,8 @@ $complementary-color: #7c8a8d;
 }
 
 //USO DO PLACEHOLDER
-//input,  
-//textarea {  
+//input,
+//textarea {
 //    @include input-placeholder {
 //        color: $grey;
 //    }
