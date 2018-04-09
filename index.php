@@ -2,7 +2,7 @@
 
 <link href="assets/css/style.index.css" rel="stylesheet">
 
-<div class="all-wrap">
+<div class="all-wrap home">
   <section id="slider">
     <div class="wrap-slider">
       <div class="item active">
@@ -419,8 +419,6 @@
     </div>
   </section>
 </div>
-
-
 
 <script type="text/javascript">
   $(document).ready(function() {
