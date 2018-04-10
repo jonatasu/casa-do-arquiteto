@@ -117,10 +117,13 @@
     // Define PADDING-TOP para o conteúdo quando não está na Homepage
     if( !$(".all-wrap").hasClass('home') ){
       $("#header").parent().find("> section:eq(0)").css("padding-top", ($("#header").height() + 20) + "px" );
+    } else if( $(window).width() < 992  ) {
+      $(".all-wrap").css("margin-top", $("#header").height() );
     }
 
     // dropdown Fix for Mobile
     $(".dropdown.megamenu-fw.on > a").on("click", function(){
+      console.log("Clicado!");
       if( $(window).width() < 992 ){
         $(this).parent().removeClass("on");
         $(this).next().attr({"class": "dropdown-menu megamenu-content animated", "style": "display:none;"});
