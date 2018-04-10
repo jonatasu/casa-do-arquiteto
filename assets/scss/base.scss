@@ -1,7 +1,5 @@
-$font-stack: 'Raleway',
-sans-serif;
-$font-sec: 'Maven Pro',
-sans-serif;
+$font-stack: 'Raleway', sans-serif;
+$font-sec: 'Maven Pro', sans-serif;
 $main-color: #F0542D;
 $second-color: #4D5258;
 $complementary-color: #7c8a8d;
@@ -23,9 +21,7 @@ $complementary-color: #7c8a8d;
 // }
 
 @mixin anima {
-    -webkit-transition: all 250ms ease-out;
-    -moz-transition: all 250ms ease-out;
-    transition: all 250ms ease-out;
+  @include transition(all 250ms ease-out);
 }
 
 

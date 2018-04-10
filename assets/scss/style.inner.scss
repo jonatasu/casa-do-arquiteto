@@ -22,6 +22,12 @@ AREA DO CLIENTE
     padding: 15px 25px 20px;
     ul li {
       border-bottom: 1px solid #ddd;
+      @include transition(border .25s linear);
+
+      &:hover{
+        border-color: lighten($main-color, 20%)
+      }
+
       a {
         color: #444;
         display: block;
@@ -32,7 +38,7 @@ AREA DO CLIENTE
         padding: 5px;
         text-decoration: none;
         &:hover {
-          background: #f5f5f5;
+          background: lighten($main-color, 40%);
         }
       }
     }
@@ -416,19 +422,53 @@ Paginas
 
 #faq {
   padding: 60px 0;
-  #accordion .panel-heading {
-    padding: 0;
-    a {
-      color: #333;
-      display: block;
-      font-size: 13px;
-      font-weight: 600;
-      padding: 10px 15px;
-      text-transform: uppercase;
-      background: #f5f5f5;
-      &:hover {
-        text-decoration: none;
-        color: #464646;
+
+  #accordion{
+    .panel{
+      @include border-radius(0);
+    }
+
+    .panel-heading {
+      padding: 0;
+      a {
+        color: #333;
+        display: block;
+        font-size: 13px;
+        font-weight: 600;
+        padding: 10px 50px 10px 15px;
+        text-transform: uppercase;
+        position:relative;
+
+        &, &:hover{
+          background-color: lighten($main-color, 35%)
+        }
+        &:hover, &:focus {
+          text-decoration: none;
+          color: #464646;
+        }
+        &.collapsed{
+          background-color: #f5f5f5;
+
+          &::after{
+            content: "\f0d7";
+          }
+
+          &:hover{
+            background-color: lighten($main-color, 40%)
+          }
+        }
+        &::after{
+          content: "\f0d8";
+          font: normal normal normal 2em/1 FontAwesome;
+          position: absolute;
+          right:0;
+          top:0;
+          bottom:0;
+          width:50px;
+          height: 100%;
+          text-align: center;
+          line-height: 1.5em;
+        }
       }
     }
   }
@@ -452,6 +492,18 @@ Paginas
   font-weight: 700;
   padding-bottom: 0;
   text-transform: uppercase;
+  position: relative;
+  margin-bottom: 15px;
+
+  &::after{
+    content: " ";
+    width: 70px;
+    height: 4px;
+    background-color: $main-color;
+    position:absolute;
+    bottom: -7px;
+    left:0
+  }
 }
 
 /*--------------------------------------------------

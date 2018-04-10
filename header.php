@@ -63,26 +63,29 @@
     <section class="top-bar">
       <div class="container">
         <div class="row">
-          <div class="col-md-3" id="top-nav-social">
+          <div class="col-xs-10 col-md-3" id="top-nav-social">
             <a href="#" target="_blank"><span class="ti-facebook"></span></a>
             <a href="#" target="_blank"><span class="ti-instagram"></span></a>
             <a href="#" target="_blank"><span class="ti-youtube"></span></a>
           </div>
-          <div class="col-md-9 text-right" id="top-nav-text">
+          <div class="col-xs-10 col-md-9 text-right" id="top-nav-text">
             <a href="#"><i class="ti-location-pin"></i> Lorem ipsum dolor sit amet, 1234 - Maringá-PR</a>
           </div>
         </div>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+          <i class="fa fa-bars"></i>
+        </button>
       </div>
     </section>
     <section class="wrap-second-area">
       <div class="container">
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-xs-6 col-md-3">
             <a href="/" class="logo" title="Casa do Arquiteto - Página inicial">
               <img src="assets/img/logo.png" alt="logo da Casa do Arquiteto" class="img-responsive">
             </a>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 hidden-xs hidden-sm">
             <div class="area-search">
               <form id="nm-form">
                 <input name="q" id="nm-form_input" placeholder="O que você procura?">
@@ -90,13 +93,22 @@
               </form>
             </div>
           </div>
-          <div class="col-md-2">
+          <div class="col-xs-4 col-md-2">
             <div class="mensagem-ola">
-              Olá!<br/>
-              <a href="#" title="clique para logar-se">Fazer Login</a> ou <a href="#" title="clique para se cadastrar">Cadastrar-se</a>
+              <span class="hidden-xs hidden-sm">Olá!<br/></span>
+              <a href="#" title="clique para logar-se">
+                <i class="fa fa-lock" aria-hidden="true"></i>
+                Fazer Login
+              </a>
+              <span class="hidden-xs hidden-sm">ou</span>
+              <br class="visible-xs visible-sm" />
+              <a href="#" title="clique para se cadastrar">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                Cadastrar-se
+              </a>
             </div>
           </div>
-          <div class="col-md-1">
+          <div class="col-xs-2 col-md-1">
             <div class="carrinho">
               <a href="carrinho.php">
                 <i class="ti-shopping-cart-full"></i>
@@ -110,10 +122,7 @@
     <nav class="navbar navbar-default bootsnav" data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-            <i class="fa fa-bars"></i>
-          </button>
-          <a class="navbar-brand" href="/"><img src="assets/img/logo.png" class="logo" alt=""></a>
+          <?php // <a class="navbar-brand" href="/"><img src="assets/img/logo.png" class="logo" alt=""></a> ?>
         </div>
         <div class="collapse navbar-collapse" id="navbar-menu">
           <ul class="nav navbar-nav navbar-center">

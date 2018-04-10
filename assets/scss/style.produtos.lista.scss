@@ -1,0 +1,149 @@
+@import "base";
+/* ====================================================================================================
+  PRODUTOS
+==================================================================================================== */
+.produtos {
+  background: #FEFEFE;
+  padding: 60px 0;
+
+  .prod-block {
+    background: #fff;
+    box-shadow: 0 30px 40px 0 rgba(0, 0, 0, 0.1);
+    margin-top: 31px;
+    font-family: $font-sec;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5em;
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+
+    .prod-image {
+      position: relative;
+      overflow: hidden;
+
+      .btn-cart {
+        height: 40px;
+        padding: 0 10px;
+        left: 50%;
+        border-radius: 20px 20px 0 0;
+        display: block;
+        @include anima;
+        transform: translateX(-50%);
+        background: $main-color;
+        line-height: 40px;
+        color: #fff;
+        position: absolute;
+        bottom: -40px;
+        text-align: center;
+        width: 200px;
+        text-decoration: none;
+        opacity: 0.8;
+
+        span {
+          font-size: 18px;
+        }
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        height: 1px;
+        width: 0;
+        bottom: 0;
+        left: 50%;
+        -webkit-transition: all 0.3s linear;
+        -moz-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+        transition: all 0.3s linear;
+        background: $main-color;
+        transform: translateX(-50%);
+        opacity: 0.3;
+      }
+    }
+
+    &:hover .prod-image {
+      .btn-cart {
+        bottom: 0;
+      }
+
+      &::after {
+        width: 100%;
+      }
+    }
+
+    .prod-desc {
+      padding: 14px 10px 5px;
+
+      a {
+        color: #555;
+        text-decoration: none;
+        display: inline-block;
+      }
+
+      .text {
+        overflow: hidden;
+        position: relative;
+        height: 50px;
+        float: left;
+        margin-bottom: 5px;
+        font-size: 14px;
+        line-height: 1.2;
+        text-align: left;
+        width: 55%;
+        display: block;
+      }
+
+      .price {
+        display: block;
+        text-align: right;
+        width: 43%;
+        float: right;
+
+        span {
+          line-height: 1.4;
+          display: block;
+        }
+
+        .old {
+          font-size: 11px;
+          text-decoration: line-through;
+        }
+
+        .new {
+          font-size: 18px;
+          font-weight: 700;
+          color: $second-color;
+        }
+
+        .parc {
+          font-size: 12px;
+        }
+      }
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      height: 3px;
+      width: 0;
+      bottom: 0;
+      left: 0;
+      -webkit-transition: all 0.3s linear;
+      -moz-transition: all 0.3s linear;
+      -o-transition: all 0.3s linear;
+      transition: all 0.3s linear;
+      background-image: -moz-linear-gradient(135deg, $main-color 0%, $second-color 100%);
+      background-image: -webkit-linear-gradient(135deg, $main-color 0%, $second-color 100%);
+      background-image: -ms-linear-gradient(135deg, $main-color 0%, $second-color 100%);
+    }
+
+    &:hover::after {
+      width: 100%;
+    }
+  }
+}

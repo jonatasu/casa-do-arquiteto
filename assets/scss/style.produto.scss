@@ -37,8 +37,15 @@
   }
 }
 
+@import "style.produtos.lista";
+
 .product-item {
   margin: 10px auto 20px;
+
+  a:hover,
+  a:focus{
+    text-decoration: none
+  }
   .item {
     overflow: hidden;
     &:hover {
@@ -160,8 +167,18 @@
         font-weight: 300;
         letter-spacing: 2px;
         text-transform: uppercase;
+
+        &[data-toggle="collapse"]{
+          color: $main-color;
+        }
+
+        &.collapsed{
+          color: #444;
+        }
         &:hover {
           color: $main-color;
+        }
+        &:hover, &:focus{
           text-decoration: none;
         }
         i.fa {

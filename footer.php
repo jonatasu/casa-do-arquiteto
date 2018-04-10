@@ -113,9 +113,21 @@
 <script src="assets/js/jquery.form.min.js"></script>
 <script>
   $(document).ready(function() {
+
+    // Define PADDING-TOP para o conteúdo quando não está na Homepage
     if( !$(".all-wrap").hasClass('home') ){
       $("#header").parent().find("> section:eq(0)").css("padding-top", ($("#header").height() + 20) + "px" );
     }
+
+    // dropdown Fix for Mobile
+    $(".dropdown.megamenu-fw.on > a").on("click", function(){
+      if( $(window).width() < 992 ){
+        $(this).parent().removeClass("on");
+        $(this).next().attr({"class": "dropdown-menu megamenu-content animated", "style": "display:none;"});
+      }
+    });
+
+
     // Scroll To Top
     $(".scrollup").hide();
     $(window).scroll(function() {
