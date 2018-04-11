@@ -1,5 +1,5 @@
 <?php include_once 'header.php'; ?>
-<link rel='stylesheet prefetch' href='assets/css/awesome-bootstrap-checkbox.css'>
+<?php //<link rel='stylesheet prefetch' href='assets/css/awesome-bootstrap-checkbox.css'> ?>
 <link rel='stylesheet prefetch' href='assets/js/ranger/ion.rangeSlider.css'>
 <link rel='stylesheet prefetch' href='assets/js/ranger/ion.rangeSlider.skinNice.css'>
 <link href="assets/css/style.produto.css" rel="stylesheet">
@@ -114,7 +114,7 @@
                           <input checked="" name="colors" class="color" value="" type="radio">
                         </li>
                         <li class="" data-tamanhos="" data-toggle="tooltip" data-placement="top" title="" data-original-title="Cinza e Preto">
-                          <span class="item-color" style="background:url(uploads/cor.jpg) no-repeat; background-size:cover;"></span>
+                          <span class="item-color" style="background: yellow no-repeat; background-size:cover;"></span>
                           <input checked="" name="colors" class="color" value="" type="radio">
                         </li>
                         <li class="" data-tamanhos="" data-toggle="tooltip" data-placement="top" title="" data-original-title="Rosa">
@@ -224,8 +224,8 @@
             <ul class="pagination">
               <li>
                 <a href="#" aria-label="Previous">
-                                    <span aria-hidden="true">&laquo;</span>
-                                </a>
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
               </li>
               <li class="active"><a href="#">1</a></li>
               <li><a href="#">2</a></li>
@@ -234,8 +234,8 @@
               <li><a href="#">5</a></li>
               <li>
                 <a href="#" aria-label="Next">
-                                    <span aria-hidden="true">&raquo;</span>
-                                </a>
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
               </li>
             </ul>
           </div>
@@ -291,9 +291,6 @@
     $('.mobile-filter-btn').click(function(event) {
       $('.sidebar .filter-Overlay').addClass('is-visible');
       $('#sidebarCollapsible .panel-collapse').collapse('hide');
-
-
-
     });
 
     $('.overlay-close').click(function(event) {

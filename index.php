@@ -66,7 +66,6 @@
             </div>
           </div>
         <?php } ?>
-        
       </div>
     </div>
   </section>
@@ -99,78 +98,26 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-3 col-md-4 col-sm-6">
-          <div class="prod-block">
-            <div class="prod-image">
-              <a href="produto.php"><img src="uploads/produtos/1.jpg" alt="" class="img-responsive"></a>
-              <a href="produto.php" class="btn-cart"><span class="ti-shopping-cart-full"></span> Adicionar ao Carrinho</a>
-            </div>
-            <div class="prod-desc">
-              <a href="produto.php">
-                <span class="text">Lorem ipsum dolor sit amet consectetur adipiscing elit aenean ac imperdiet</span>
-                <span class="price">
-                  <span class="old">R$123,45</span>
-                  <span class="new"><small>R$ </small>123,45</span>
-                  <span class="parc">ou 5X R$123,45</span>
-                </span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6">
-          <div class="prod-block">
-            <div class="prod-image">
-              <a href="produto.php"><img src="uploads/produtos/2.jpg" alt="" class="img-responsive"></a>
-              <a href="produto.php" class="btn-cart"><span class="ti-shopping-cart-full"></span> Adicionar ao Carrinho</a>
-            </div>
-            <div class="prod-desc">
-              <a href="produto.php">
-                <span class="text">Lorem ipsum dolor sit amet consectetur adipiscing elit aenean ac imperdiet</span>
-                <span class="price">
-                  <span class="old">R$123,45</span>
-                  <span class="new"><small>R$ </small>123,45</span>
-                  <span class="parc">ou 5X R$123,45</span>
-                </span>
-              </a>
+        <?php for($i=1; $i<=4;$i++){?>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="prod-block">
+              <div class="prod-image">
+                <a href="produto.php"><img src="uploads/produtos/<?=$i?>.jpg" alt="" class="img-responsive"></a>
+                <a href="produto.php" class="btn-cart"><span class="ti-shopping-cart-full"></span> Adicionar ao Carrinho</a>
+              </div>
+              <div class="prod-desc">
+                <a href="produto.php">
+                  <span class="text">Lorem ipsum dolor sit amet consectetur adipiscing elit aenean ac imperdiet</span>
+                  <span class="price">
+                    <span class="old">R$123,45</span>
+                    <span class="new"><small>R$ </small>123,45</span>
+                    <span class="parc">ou 5X R$123,45</span>
+                  </span>
+                </a>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6">
-          <div class="prod-block">
-            <div class="prod-image">
-              <a href="produto.php"><img src="uploads/produtos/3.jpg" alt="" class="img-responsive"></a>
-              <a href="produto.php" class="btn-cart"><span class="ti-shopping-cart-full"></span> Adicionar ao Carrinho</a>
-            </div>
-            <div class="prod-desc">
-              <a href="produto.php">
-                <span class="text">Lorem ipsum dolor sit amet consectetur adipiscing elit aenean ac imperdiet</span>
-                <span class="price">
-                  <span class="old">R$123,45</span>
-                  <span class="new"><small>R$ </small>123,45</span>
-                  <span class="parc">ou 5X R$123,45</span>
-                </span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6">
-          <div class="prod-block">
-            <div class="prod-image">
-              <a href="#"><img src="uploads/produtos/4.jpg" alt="" class="img-responsive"></a>
-              <a href="#" class="btn-cart"><span class="ti-shopping-cart-full"></span> Adicionar ao Carrinho</a>
-            </div>
-            <div class="prod-desc">
-              <a href="#">
-                <span class="text">Lorem ipsum dolor sit amet consectetur adipiscing elit aenean ac imperdiet</span>
-                <span class="price">
-                  <span class="old">R$123,45</span>
-                  <span class="new"><small>R$ </small>123,45</span>
-                  <span class="parc">ou 5X R$123,45</span>
-                </span>
-              </a>
-            </div>
-          </div>
-        </div>
+        <?php } ?>
       </div>
     </div>
   </section>
@@ -197,86 +144,34 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-3 col-md-4 col-sm-6">
-          <div class="prod-block">
-            <div class="prod-image">
-              <a href="produto.php"><img src="uploads/produtos/1.jpg" alt="" class="img-responsive"></a>
-              <a href="produto.php" class="btn-cart"><span class="ti-shopping-cart-full"></span> Adicionar ao Carrinho</a>
-            </div>
-            <div class="prod-desc">
-              <a href="produto.php">
-                <span class="text">Lorem ipsum dolor sit amet consectetur adipiscing elit aenean ac imperdiet</span>
-                <span class="price">
-                  <span class="old">R$123,45</span>
-                  <span class="new"><small>R$ </small>123,45</span>
-                  <span class="parc">ou 5X R$123,45</span>
-                </span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6">
-          <div class="prod-block">
-            <div class="prod-image">
-              <a href="produto.php"><img src="uploads/produtos/2.jpg" alt="" class="img-responsive"></a>
-              <a href="produto.php" class="btn-cart"><span class="ti-shopping-cart-full"></span> Adicionar ao Carrinho</a>
-            </div>
-            <div class="prod-desc">
-              <a href="produto.php">
-                <span class="text">Lorem ipsum dolor sit amet consectetur adipiscing elit aenean ac imperdiet</span>
-                <span class="price">
-                  <span class="old">R$123,45</span>
-                  <span class="new"><small>R$ </small>123,45</span>
-                  <span class="parc">ou 5X R$123,45</span>
-                </span>
-              </a>
+        <?php for($i=1; $i<=4;$i++){?>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="prod-block">
+              <div class="prod-image">
+                <a href="produto.php"><img src="uploads/produtos/<?=$i?>.jpg" alt="" class="img-responsive"></a>
+                <a href="produto.php" class="btn-cart"><span class="ti-shopping-cart-full"></span> Adicionar ao Carrinho</a>
+              </div>
+              <div class="prod-desc">
+                <a href="produto.php">
+                  <span class="text">Lorem ipsum dolor sit amet consectetur adipiscing elit aenean ac imperdiet</span>
+                  <span class="price">
+                    <span class="old">R$123,45</span>
+                    <span class="new"><small>R$ </small>123,45</span>
+                    <span class="parc">ou 5X R$123,45</span>
+                  </span>
+                </a>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6">
-          <div class="prod-block">
-            <div class="prod-image">
-              <a href="produto.php"><img src="uploads/produtos/3.jpg" alt="" class="img-responsive"></a>
-              <a href="produto.php" class="btn-cart"><span class="ti-shopping-cart-full"></span> Adicionar ao Carrinho</a>
-            </div>
-            <div class="prod-desc">
-              <a href="produto.php">
-                <span class="text">Lorem ipsum dolor sit amet consectetur adipiscing elit aenean ac imperdiet</span>
-                <span class="price">
-                  <span class="old">R$123,45</span>
-                  <span class="new"><small>R$ </small>123,45</span>
-                  <span class="parc">ou 5X R$123,45</span>
-                </span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6">
-          <div class="prod-block">
-            <div class="prod-image">
-              <a href="#"><img src="uploads/produtos/4.jpg" alt="" class="img-responsive"></a>
-              <a href="#" class="btn-cart"><span class="ti-shopping-cart-full"></span> Adicionar ao Carrinho</a>
-            </div>
-            <div class="prod-desc">
-              <a href="#">
-                <span class="text">Lorem ipsum dolor sit amet consectetur adipiscing elit aenean ac imperdiet</span>
-                <span class="price">
-                  <span class="old">R$123,45</span>
-                  <span class="new"><small>R$ </small>123,45</span>
-                  <span class="parc">ou 5X R$123,45</span>
-                </span>
-              </a>
-            </div>
-          </div>
-        </div>
+        <?php } ?>
       </div>
     </div>
   </section>
   <section id="marcas">
-    <!--        FILTRO DE COMPRA POR MARCA-->
+    <?php //<!-- FILTRO DE COMPRA POR MARCA --> ?>
     <div class="container">
       <div class="row">
-        <div class="col-xs-12">
+        <div class="col-xs-10 col-xs-offset-1 col-sm-12">
           <div class="wrap-marcas">
             <div class="item">
               <div class="marca">
@@ -358,8 +253,8 @@
             <div class="item">
               <div class="marca">
                 <a href="#">
-                                <img src="uploads/marcas/12.jpg" class="img-responsive center-block">
-                                </a>
+                  <img src="uploads/marcas/12.jpg" class="img-responsive center-block">
+                </a>
               </div>
             </div>
           </div>
@@ -386,6 +281,21 @@
       slidesToScroll: 1,
       autoplay: true,
       autoplaySpeed: 4000,
+      infinite: true,
+      responsive: [
+        {
+          breakpoint: 992,
+          settings: { slidesToShow: 4 }
+        },
+        {
+          breakpoint: 768,
+          settings: { slidesToShow: 2 }
+        },
+        {
+          breakpoint: 480,
+          settings: { slidesToShow: 1 }
+        }
+      ]
     });
   });
 </script>

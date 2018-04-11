@@ -81,7 +81,7 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-6 col-md-3">
-            <a href="/" class="logo" title="Casa do Arquiteto - Página inicial">
+            <a href="index.php" class="logo" title="Casa do Arquiteto - Página inicial">
               <img src="assets/img/logo.png" alt="logo da Casa do Arquiteto" class="img-responsive">
             </a>
           </div>
@@ -98,13 +98,14 @@
               <span class="hidden-xs hidden-sm">Olá!<br/></span>
               <a href="#" title="clique para logar-se">
                 <i class="fa fa-lock" aria-hidden="true"></i>
-                Fazer Login
+                <span class="hidden-xs">Fazer </span>Login
               </a>
               <span class="hidden-xs hidden-sm">ou</span>
               <br class="visible-xs visible-sm" />
               <a href="#" title="clique para se cadastrar">
                 <i class="fa fa-user" aria-hidden="true"></i>
-                Cadastrar-se
+                <span class="hidden-xs">Cadastrar-se</span>
+                <span class="visible-xs">Cadastro</span>
               </a>
             </div>
           </div>
@@ -119,108 +120,124 @@
         </div>
       </div>
     </section>
-    <nav class="navbar navbar-default bootsnav" data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
+    <nav class="navbar navbar-default bootsnav" data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000"  data-in="fadeInDown" data-out="fadeInUp">
       <div class="container">
         <div class="navbar-header">
           <?php // <a class="navbar-brand" href="/"><img src="assets/img/logo.png" class="logo" alt=""></a> ?>
         </div>
         <div class="collapse navbar-collapse" id="navbar-menu">
-          <ul class="nav navbar-nav navbar-center">
+          <ul class="nav navbar-nav navbar-center" data-in="fadeInDown" data-out="fadeOutUDown">
             <li class="dropdown megamenu-fw">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Acessórios</a>
               <ul class="dropdown-menu megamenu-content" role="menu">
                 <li>
                   <div class="row">
                     <div class="col-md-10 nopadding">
-                      <div class="col-menu col-md-3">
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                      <div class="col-md-3">
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="col-menu col-md-3">
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
-                      <div class="col-menu col-md-3">
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
-                        </div>
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                      <div class="col-md-3">
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
-                      <div class="col-menu col-md-3">
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                      <div class="col-md-3">
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
                     </div>
-                    <div class="imagebanner nopadding col-md-2">
+                    <div class="hidden-xs hidden-sm imagebanner nopadding col-md-2">
                       <a href="#">
                         <img src="uploads/banner-menu1.jpg" class="img-responsive center-block">
                       </a>
@@ -235,95 +252,111 @@
                 <li>
                   <div class="row">
                     <div class="col-md-10 nopadding">
-                      <div class="col-menu col-md-3">
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                      <div class="col-md-3">
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
-                      <div class="col-menu col-md-3">
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                      <div class="col-md-3">
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="col-menu col-md-3">
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
-                        </div>
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
-                      <div class="col-menu col-md-3">
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                      <div class="col-md-3">
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
                     </div>
-                    <div class="imagebanner nopadding col-md-2">
+                    <div class="hidden-xs hidden-sm imagebanner nopadding col-md-2">
                       <a href="#">
                         <img src="uploads/banner-menu2.jpg" class="img-responsive center-block">
                       </a>
@@ -338,95 +371,111 @@
                 <li>
                   <div class="row">
                     <div class="col-md-10 nopadding">
-                      <div class="col-menu col-md-3">
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                      <div class="col-md-3">
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="col-menu col-md-3">
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
-                      <div class="col-menu col-md-3">
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
-                        </div>
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                      <div class="col-md-3">
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
-                      <div class="col-menu col-md-3">
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                      <div class="col-md-3">
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
                     </div>
-                    <div class="imagebanner nopadding col-md-2">
+                    <div class="hidden-xs hidden-sm imagebanner nopadding col-md-2">
                       <a href="#">
                         <img src="uploads/banner-menu3.jpg" class="img-responsive center-block">
                       </a>
@@ -441,95 +490,111 @@
                 <li>
                   <div class="row">
                     <div class="col-md-10 nopadding">
-                      <div class="col-menu col-md-3">
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                      <div class="col-md-3">
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="col-menu col-md-3">
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
-                      <div class="col-menu col-md-3">
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
-                        </div>
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                      <div class="col-md-3">
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
-                      <div class="col-menu col-md-3">
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                      <div class="col-md-3">
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
                     </div>
-                    <div class="imagebanner nopadding col-md-2">
+                    <div class="hidden-xs hidden-sm imagebanner nopadding col-md-2">
                       <a href="#">
                         <img src="uploads/banner-menu4.jpg" class="img-responsive center-block">
                       </a>
@@ -544,96 +609,112 @@
                 <li>
                   <div class="row">
                     <div class="col-md-10 nopadding">
-                      <div class="col-menu col-md-3">
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                      <div class="col-md-3">
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
 
-                      <div class="col-menu col-md-3">
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                      <div class="col-md-3">
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
-                      <div class="col-menu col-md-3">
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                      <div class="col-md-3">
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
-                      <div class="col-menu col-md-3">
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                      <div class="col-md-3">
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
                     </div>
-                    <div class="imagebanner nopadding col-md-2">
+                    <div class="hidden-xs hidden-sm imagebanner nopadding col-md-2">
                       <a href="#">
                         <img src="uploads/banner-menu1.jpg" class="img-responsive center-block">
                       </a>
@@ -648,95 +729,111 @@
                 <li>
                   <div class="row">
                     <div class="col-md-10 nopadding">
-                      <div class="col-menu col-md-3">
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                      <div class="col-md-3">
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
-                      <div class="col-menu col-md-3">
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                      <div class="col-md-3">
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="col-menu col-md-3">
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
-                        </div>
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
-                      <div class="col-menu col-md-3">
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                      <div class="col-md-3">
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
                     </div>
-                    <div class="imagebanner nopadding col-md-2">
+                    <div class="hidden-xs hidden-sm imagebanner nopadding col-md-2">
                       <a href="#">
                         <img src="uploads/banner-menu2.jpg" class="img-responsive center-block">
                       </a>
@@ -751,95 +848,111 @@
                 <li>
                   <div class="row">
                     <div class="col-md-10 nopadding">
-                      <div class="col-menu col-md-3">
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                      <div class="col-md-3">
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="col-menu col-md-3">
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
-                      <div class="col-menu col-md-3">
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
-                        </div>
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                      <div class="col-md-3">
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
-                      <div class="col-menu col-md-3">
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                      <div class="col-md-3">
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
                     </div>
-                    <div class="imagebanner nopadding col-md-2">
+                    <div class="hidden-xs hidden-sm imagebanner nopadding col-md-2">
                       <a href="#">
                         <img src="uploads/banner-menu3.jpg" class="img-responsive center-block">
                       </a>
@@ -854,95 +967,111 @@
                 <li>
                   <div class="row">
                     <div class="col-md-10 nopadding">
-                      <div class="col-menu col-md-3">
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                      <div class="col-md-3">
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="col-menu col-md-3">
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
-                      <div class="col-menu col-md-3">
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
-                        </div>
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                      <div class="col-md-3">
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
-                      <div class="col-menu col-md-3">
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                      <div class="col-md-3">
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
                     </div>
-                    <div class="imagebanner nopadding col-md-2">
+                    <div class="hidden-xs hidden-sm imagebanner nopadding col-md-2">
                       <a href="#">
                         <img src="uploads/banner-menu4.jpg" class="img-responsive center-block">
                       </a>
@@ -957,96 +1086,112 @@
                 <li>
                   <div class="row">
                     <div class="col-md-10 nopadding">
-                      <div class="col-menu col-md-3">
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                      <div class="col-md-3">
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
 
-                      <div class="col-menu col-md-3">
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                      <div class="col-md-3">
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
-                      <div class="col-menu col-md-3">
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                      <div class="col-md-3">
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
-                      <div class="col-menu col-md-3">
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                      <div class="col-md-3">
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
                     </div>
-                    <div class="imagebanner nopadding col-md-2">
+                    <div class="hidden-xs hidden-sm imagebanner nopadding col-md-2">
                       <a href="#">
                         <img src="uploads/banner-menu1.jpg" class="img-responsive center-block">
                       </a>
@@ -1061,95 +1206,111 @@
                 <li>
                   <div class="row">
                     <div class="col-md-10 nopadding">
-                      <div class="col-menu col-md-3">
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                      <div class="col-md-3">
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
-                      <div class="col-menu col-md-3">
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                      <div class="col-md-3">
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="col-menu col-md-3">
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
-                        </div>
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
-                      <div class="col-menu col-md-3">
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                      <div class="col-md-3">
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
                     </div>
-                    <div class="imagebanner nopadding col-md-2">
+                    <div class="hidden-xs hidden-sm imagebanner nopadding col-md-2">
                       <a href="#">
                         <img src="uploads/banner-menu2.jpg" class="img-responsive center-block">
                       </a>
@@ -1164,95 +1325,111 @@
                 <li>
                   <div class="row">
                     <div class="col-md-10 nopadding">
-                      <div class="col-menu col-md-3">
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                      <div class="col-md-3">
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="col-menu col-md-3">
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
-                      <div class="col-menu col-md-3">
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
-                        </div>
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                      <div class="col-md-3">
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
-                      <div class="col-menu col-md-3">
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                      <div class="col-md-3">
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
-                        <h6 class="title">Lorem ipsum dolor</h6>
-                        <div class="content">
-                          <ul class="menu-col">
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                            <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
-                          </ul>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-menu">
+                          <h6 class="title">Lorem ipsum dolor</h6>
+                          <div class="content">
+                            <ul class="menu-col">
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                              <li><a href="produtos.php">Lorem ipsum dolor sit</a></li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
                     </div>
-                    <div class="imagebanner nopadding col-md-2">
+                    <div class="hidden-xs hidden-sm imagebanner nopadding col-md-2">
                       <a href="#">
                         <img src="uploads/banner-menu3.jpg" class="img-responsive center-block">
                       </a>

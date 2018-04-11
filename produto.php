@@ -108,7 +108,7 @@
                   <input checked="" name="colors" class="color" value="" type="radio">
                 </li>
                 <li class="" data-tamanhos="" data-toggle="tooltip" data-placement="top" title="Cinza e Preto">
-                  <span class="item-color" style="background:url(uploads/cor.jpg) no-repeat; background-size:cover;"></span>
+                  <span class="item-color" style="background: yellow no-repeat; background-size:cover;"></span>
                   <input checked="" name="colors" class="color" value="" type="radio">
                 </li>
                 <li class="" data-tamanhos="" data-toggle="tooltip" data-placement="top" title="Rosa">

@@ -606,6 +606,11 @@
 
 #produto {
   padding: 60px 0;
+
+  .slick-prev:before, .slick-next:before{
+    color: #FFF;
+  }
+
   #galeria {
     .bigPicture {
       margin-bottom: 10px;

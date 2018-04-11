@@ -113,7 +113,6 @@
 <script src="assets/js/jquery.form.min.js"></script>
 <script>
   $(document).ready(function() {
-
     // Define PADDING-TOP para o conteúdo quando não está na Homepage
     if( !$(".all-wrap").hasClass('home') ){
       $("#header").parent().find("> section:eq(0)").css("padding-top", ($("#header").height() + 20) + "px" );
@@ -122,24 +121,16 @@
     }
 
     // dropdown Fix for Mobile
-    $(".dropdown.megamenu-fw.on > a").on("click", function(){
-      console.log("Clicado!");
-      if( $(window).width() < 992 ){
-        $(this).parent().removeClass("on");
-        $(this).next().attr({"class": "dropdown-menu megamenu-content animated", "style": "display:none;"});
-      }
-    });
-
+    // $(".dropdown.megamenu-fw.on > a").on("click", function(){
+    //   console.log("Clicado!");
+    //   if( $(window).width() < 992 ){
+    //     $(this).parent().removeClass("on");
+    //     $(this).next().attr({"class": "dropdown-menu megamenu-content animated", "style": "display:none;"});
+    //   }
+    // });
 
     // Scroll To Top
     $(".scrollup").hide();
-    $(window).scroll(function() {
-      if ($(window).scrollTop() > 100) {
-        $(".scrollup").fadeIn();
-      } else {
-        $(".scrollup").fadeOut();
-      }
-    });
     $('.totop').on("click", function() {
       $("html, body").animate({
         scrollTop: 0
@@ -154,7 +145,8 @@
         'overflow': 'visible'
       });
       $(window).scroll();
-    })
+    });
+
   });
   // Hide Header on on scroll down
   var didScroll;
@@ -162,6 +154,11 @@
   var delta = 5;
   var navbarHeight = $('header .navbar').outerHeight();
   $(window).scroll(function(event) {
+    if ($(window).scrollTop() > 100) {
+      $(".scrollup").fadeIn();
+    } else {
+      $(".scrollup").fadeOut();
+    }
     didScroll = true;
   });
   setInterval(function() {

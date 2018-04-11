@@ -285,6 +285,15 @@ RODAPÉ
   .sub-footer {
     padding: 10px 0;
 
+    @media (max-width: 991px){
+      text-align:center;
+
+      .text-right{
+        text-align:center;
+        margin: 15px 0 5px
+      }
+    }
+
     span {
       color: #fff;
       font-size: 12px;
@@ -294,8 +303,14 @@ RODAPÉ
 
     #logoltx {
       width: 80px;
-      display: block;
-      float: right;
+
+      @media (min-width: 992px){
+        display: block;
+        float: right;
+      }
+      @media (max-width: 991px){
+        display: inline-block;
+      }
       margin-left: 15px;
 
       svg {
@@ -699,11 +714,19 @@ HEADER MENU
       a {
         color: $main-color;
 
+        @media (max-width: 991px){
+          white-space: nowrap;
+
+          [class*='visible-']{
+            display: inline-block!important;
+          }
+        }
+
         i{
           @media (min-width: 992px){
             display: none;
           }
-          @media (max-width: 992px){
+          @media (max-width: 991px){
             display: inline-block;
           }
         }
@@ -787,12 +810,23 @@ HEADER MENU
       }
 
       .megamenu-content {
+        &.fadeOutDown{
+          display: none !important;
+          opacity: 0 !important;
+          @include transition(all 1ms linear);
+        }
         li {
           padding: 0;
         }
 
         .col-menu {
-          padding: 20px 15px;
+          @media (min-width: 992px){
+            padding: 20px 15px;
+          }
+
+          @media (max-width: 991px){
+            padding: 0 10px 0 15px
+          }
 
           .content {
             margin-bottom: 20px;
